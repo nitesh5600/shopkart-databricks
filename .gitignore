@@ -1,0 +1,32 @@
+# ---- Data: lives in Databricks volumes, never in Git ----
+shopkart_data/
+*.csv
+*.json
+*.parquet
+*.zip
+
+# ---- Secrets and local config ----
+.databrickscfg
+.env
+.env.*
+*.token
+*.pem
+
+# ---- Databricks Asset Bundles ----
+.databricks/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
